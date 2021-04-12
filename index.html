@@ -4,7 +4,7 @@
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
     <title>Daisuke's Journal Log</title>
-    <link rel = "shortcut icon"
+    <link rel = "shortcut_icon"
           type = "image/jpg"
           href = "media/Daisuke Nishioka.JPG"/>
 
@@ -16,9 +16,9 @@
         </h1>
           <nav>
             <ul>
-               <li><a href = "#Day 1">Day1</a></li>
-               <li><a href = "#Day 2">Day2</a></li>
-               <li><a href = "#Day 3">Day3</a></li>
+               <li><a href = "#Day_1">Day1</a></li>
+               <li><a href = "#Day_2">Day2</a></li>
+               <li><a href = "#Day_3">Day3</a></li>
             </ul>
            </nav>
         
@@ -41,10 +41,10 @@
               <li>I took a <strong><a href = "https://www.worldometers.info/coronavirus/">COVID</a></strong> test</li>
               <li>I took classes</li>
               <li>I sent Dr. Powell a meme</li>
-                <img width = 300
-                     src = "media\meirl.png"
-                     alt = "meirl poputepipiku"/>
-            </ul>
+              </ul>
+              <img width = 300
+                   src = "media\meirl.png"
+                   alt = "meirl poputepipiku"/>
           </section>
           <div>
             <h2>
@@ -72,12 +72,12 @@
               <li>I took classes</li>
               <li>I showed up to Kendo Practice <br>
               This track kept me going today:
-                <figcaption>Never Fade Away:</figcaption>
-                <audio
-                  controls
-                  src = "media/Cyberpunk 2077 Never Fade Away by SAMURAI (Refused).mp3"/>
               </li>
-            </ul>
+              </ul>
+              <figcaption>Never Fade Away:</figcaption>
+                <audio
+                  controls 
+                  src = "media/Cyberpunk_2077_Never_Fade_Away_by_SAMURAI_(Refused).mp3">
           </section>
             <h2>
             What happened to me?
@@ -104,9 +104,9 @@
               <li>I showed up to Japanese Language table to talk to friends</li>
               <li>I <i class = "latin">attempted</i> work on this lab</li>
               <li>I found this:</li>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LJHZ15s0Tus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
-            </ul>
+              </ul>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/LJHZ15s0Tus" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
           </section>
 
           <section>
@@ -145,8 +145,8 @@
       <form>
 
         <label for = "logdate">What is today's date:</label>
-        <input type = "date" id = "logdate" name = "date" required
-          minlength = "2021-04-11" maxlength = "2021-07-01"> <br> <br>
+        <input type = "date" id = "logdate" name = "date" value = "2021-04-11"
+          min = "2021-01-01" max = "2021-12-31"> <br> <br>
 
         <label for = "feeling">How are you feeling:</label>
         <input list = "feelings" id="feeling" name = "feeling"> <br> <br>
